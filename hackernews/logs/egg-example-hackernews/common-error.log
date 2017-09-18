@@ -1,0 +1,39 @@
+2017-09-18 15:20:41,816 ERROR 6880 [-/undefined/-/21061ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443 (req "error"), GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::":2},"requests":{}})
+headers: {}
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ETIMEDOUT'
+errno: 'ETIMEDOUT'
+syscall: 'connect'
+address: '35.201.97.85'
+port: 443
+name: 'RequestError'
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 21057, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+headerSent: true
+pid: 6880
+hostname: z
+
+2017-09-18 15:25:18,207 ERROR 1352 [-/127.0.0.1/-/21030ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443 (req "error"), GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::":1},"requests":{}})
+headers: {}
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ETIMEDOUT'
+errno: 'ETIMEDOUT'
+syscall: 'connect'
+address: '35.201.97.85'
+port: 443
+name: 'RequestError'
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 21019, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 1352
+hostname: z
+

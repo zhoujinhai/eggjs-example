@@ -1,0 +1,29 @@
+2017-09-18 17:12:03,982 ERROR 14644 [-/::1/-/8ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/list.ejs from E:\eggJS\egg-example1\app\view
+    at Map.resolve (E:\eggJS\egg-example1\node_modules\egg-view\lib\view_manager.js:74:5)
+    at resolve.next (<anonymous>)
+    at onFulfilled (E:\eggJS\egg-example1\node_modules\co\index.js:65:19)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 14644
+hostname: z
+
+2017-09-18 17:18:19,223 ERROR 8800 [-/::1/-/22ms GET /news] nodejs.Error: Could not find matching close tag for "<%=".
+    at E:\eggJS\egg-example1\node_modules\ejs\lib\ejs.js:620:19
+    at Array.forEach (native)
+    at Template.generateSource (E:\eggJS\egg-example1\node_modules\ejs\lib\ejs.js:605:15)
+    at Template.compile (E:\eggJS\egg-example1\node_modules\ejs\lib\ejs.js:509:12)
+    at Object.compile (E:\eggJS\egg-example1\node_modules\ejs\lib\ejs.js:358:16)
+    at handleCache (E:\eggJS\egg-example1\node_modules\ejs\lib\ejs.js:201:18)
+    at tryHandleCache (E:\eggJS\egg-example1\node_modules\ejs\lib\ejs.js:223:14)
+    at Object.exports.renderFile (E:\eggJS\egg-example1\node_modules\ejs\lib\ejs.js:437:10)
+    at Promise (E:\eggJS\egg-example1\node_modules\egg-view-ejs\lib\view.js:16:11)
+    at Promise (<anonymous>)
+
+pid: 8800
+hostname: z
+

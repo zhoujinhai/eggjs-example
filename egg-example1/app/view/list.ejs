@@ -1,0 +1,11 @@
+<%- include('head') %>
+	
+	<div class="news-view view">
+		<% list.forEach(function(item){ %>
+			<div class="item">
+				<a href="<%= item.url %>"><%= item.title %></a>
+			</div>
+		<% }) %>
+	</div>
+
+<%- include('foot') %>

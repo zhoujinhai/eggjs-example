@@ -1,0 +1,39 @@
+2017-09-08 16:14:34,238 INFO 2880 [egg:logger] init all loggers with options: {"dir":"E:\\eggJS\\hackernews\\logs\\egg-example-hackernews","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"egg-example-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-09-08 16:14:34,241 INFO 2880 [egg-schedule]: register schedule egg-schedule:E:\eggJS\hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-09-08 16:14:34,241 INFO 2880 [egg-schedule]: register schedule egg-schedule:E:\eggJS\hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-09-08 16:14:34,246 INFO 2880 [egg-static] starting static serve /public/ -> E:\eggJS\hackernews\app\public
+2017-09-08 16:14:34,247 INFO 2880 [egg-security] use csrf middleware
+2017-09-08 16:14:34,247 INFO 2880 [egg-security] use methodnoallow middleware
+2017-09-08 16:14:34,247 INFO 2880 [egg-security] use noopen middleware
+2017-09-08 16:14:34,247 INFO 2880 [egg-security] use nosniff middleware
+2017-09-08 16:14:34,247 INFO 2880 [egg-security] use xssProtection middleware
+2017-09-08 16:14:34,247 INFO 2880 [egg-security] use xframe middleware
+2017-09-08 16:14:34,247 INFO 2880 [egg-security] use dta middleware
+2017-09-08 16:14:34,247 INFO 2880 [egg-security] compose 7 middlewares into one security middleware
+2017-09-08 16:14:34,254 INFO 2880 [egg-watcher:app] watcher start success
+2017-09-18 15:20:09,689 INFO 6880 [egg:logger] init all loggers with options: {"dir":"E:\\eggJS\\hackernews\\logs\\egg-example-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:20:09,763 INFO 6880 [egg-schedule]: register schedule egg-schedule:E:\eggJS\hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-09-18 15:20:09,763 INFO 6880 [egg-schedule]: register schedule egg-schedule:E:\eggJS\hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-09-18 15:20:09,976 INFO 6880 [egg-static] starting static serve /public/ -> E:\eggJS\hackernews\app\public
+2017-09-18 15:20:09,987 INFO 6880 [egg-security] use csrf middleware
+2017-09-18 15:20:09,988 INFO 6880 [egg-security] use methodnoallow middleware
+2017-09-18 15:20:09,988 INFO 6880 [egg-security] use noopen middleware
+2017-09-18 15:20:09,989 INFO 6880 [egg-security] use nosniff middleware
+2017-09-18 15:20:09,989 INFO 6880 [egg-security] use xssProtection middleware
+2017-09-18 15:20:09,989 INFO 6880 [egg-security] use xframe middleware
+2017-09-18 15:20:09,990 INFO 6880 [egg-security] use dta middleware
+2017-09-18 15:20:09,990 INFO 6880 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 15:20:10,154 INFO 6880 [egg-watcher:app] watcher start success
+2017-09-18 15:24:46,639 INFO 1352 [egg:logger] init all loggers with options: {"dir":"E:\\eggJS\\hackernews\\logs\\egg-example-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:24:46,668 INFO 1352 [egg-schedule]: register schedule egg-schedule:E:\eggJS\hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-09-18 15:24:46,668 INFO 1352 [egg-schedule]: register schedule egg-schedule:E:\eggJS\hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-09-18 15:24:46,706 INFO 1352 [egg-static] starting static serve /public/ -> E:\eggJS\hackernews\app\public
+2017-09-18 15:24:46,708 INFO 1352 [egg-security] use csrf middleware
+2017-09-18 15:24:46,708 INFO 1352 [egg-security] use methodnoallow middleware
+2017-09-18 15:24:46,709 INFO 1352 [egg-security] use noopen middleware
+2017-09-18 15:24:46,709 INFO 1352 [egg-security] use nosniff middleware
+2017-09-18 15:24:46,709 INFO 1352 [egg-security] use xssProtection middleware
+2017-09-18 15:24:46,710 INFO 1352 [egg-security] use xframe middleware
+2017-09-18 15:24:46,710 INFO 1352 [egg-security] use dta middleware
+2017-09-18 15:24:46,710 INFO 1352 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 15:24:46,773 INFO 1352 [egg-watcher:app] watcher start success
