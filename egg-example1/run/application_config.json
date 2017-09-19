@@ -276,6 +276,10 @@
         "hostname": ""
       }
     },
+    "news": {
+      "pageSize": 5,
+      "serverUrl": "https://hacker-news.firebaseio.com/v0"
+    },
     "coreMiddlewares": [
       "meta",
       "siteFile",

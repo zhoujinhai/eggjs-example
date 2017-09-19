@@ -12,6 +12,10 @@
   "ejs": {
     "cache": "E:\\eggJS\\egg-example1\\node_modules\\egg-view-ejs\\config\\config.local.js"
   },
+  "news": {
+    "pageSize": "E:\\eggJS\\egg-example1\\config\\config.default.js",
+    "serverUrl": "E:\\eggJS\\egg-example1\\config\\config.default.js"
+  },
   "onerror": {
     "errorPageUrl": "E:\\eggJS\\egg-example1\\node_modules\\egg-onerror\\config\\config.default.js",
     "appErrorFilter": "E:\\eggJS\\egg-example1\\node_modules\\egg-onerror\\config\\config.default.js"

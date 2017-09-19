@@ -7,3 +7,8 @@ exports.view = {
 };
 
 exports.ejs = {};
+
+exports.news = {
+	pageSize: 5,
+	serverUrl: 'https://hacker-news.firebaseio.com/v0'
+};
