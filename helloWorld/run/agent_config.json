@@ -82,12 +82,6 @@
     "helper": {
       "shtml": {}
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": true,
-      "reloadOnDebug": true
-    },
     "logrotator": {
       "filesRotateByHour": null,
       "filesRotateBySize": null,
@@ -114,12 +108,12 @@
     },
     "view": {
       "root": "E:\\eggJS\\helloWorld\\app\\view",
-      "cache": false,
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
-    "env": "local",
+    "env": "unittest",
     "name": "helloworld",
     "keys": "<String len: 21>",
     "proxy": false,
@@ -135,7 +129,7 @@
         "test": "test"
       },
       "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "egg-bin test",
         "dev": "egg-bin dev"
       },
       "author": "zjh",
@@ -144,7 +138,9 @@
         "egg": "^1.8.0"
       },
       "devDependencies": {
-        "egg-bin": "^4.3.2"
+        "egg-bin": "^4.3.2",
+        "egg-mock": "^3.12.1",
+        "supertest": "^3.0.0"
       }
     },
     "baseDir": "E:\\eggJS\\helloWorld",
@@ -181,19 +177,17 @@
     "logger": {
       "dir": "E:\\eggJS\\helloWorld\\logs\\helloworld",
       "encoding": "utf8",
-      "env": "local",
+      "env": "unittest",
       "level": "INFO",
-      "consoleLevel": "INFO",
+      "consoleLevel": "WARN",
       "disableConsoleAfterReady": false,
       "outputJSON": false,
-      "buffer": true,
+      "buffer": false,
       "appLogName": "helloworld-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "type": "agent"
     },
     "httpclient": {
@@ -310,21 +304,6 @@
       "path": "E:\\eggJS\\helloWorld\\node_modules\\egg-security",
       "version": "1.12.1"
     },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\eggJS\\helloWorld\\node_modules\\egg-development",
-      "version": "1.3.1"
-    },
     "schedule": {
       "enable": true,
       "package": "egg-schedule",
@@ -383,6 +362,15 @@
       "from": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\plugin.js",
       "path": "E:\\eggJS\\helloWorld\\node_modules\\egg-view",
       "version": "1.1.2"
+    },
+    "egg-mock": {
+      "enable": true,
+      "path": "E:\\eggJS\\helloWorld\\node_modules\\egg-mock",
+      "name": "egg-mock",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "version": "3.12.1"
     }
   }
 }

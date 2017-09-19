@@ -18,7 +18,7 @@
     "cookieMaxAge": "E:\\eggJS\\helloWorld\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "E:\\eggJS\\helloWorld\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "E:\\eggJS\\helloWorld\\node_modules\\egg-watcher\\config\\config.unittest.js",
     "eventSources": {
       "default": "E:\\eggJS\\helloWorld\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "E:\\eggJS\\helloWorld\\node_modules\\egg-watcher\\config\\config.default.js"
@@ -54,7 +54,7 @@
       "value": "E:\\eggJS\\helloWorld\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "E:\\eggJS\\helloWorld\\node_modules\\egg-security\\config\\config.local.js",
+      "enable": "E:\\eggJS\\helloWorld\\node_modules\\egg-security\\config\\config.default.js",
       "maxAge": "E:\\eggJS\\helloWorld\\node_modules\\egg-security\\config\\config.default.js",
       "includeSubdomains": "E:\\eggJS\\helloWorld\\node_modules\\egg-security\\config\\config.default.js"
     },
@@ -82,12 +82,6 @@
   "helper": {
     "shtml": "E:\\eggJS\\helloWorld\\node_modules\\egg-security\\config\\config.default.js"
   },
-  "development": {
-    "watchDirs": "E:\\eggJS\\helloWorld\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "E:\\eggJS\\helloWorld\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "E:\\eggJS\\helloWorld\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "E:\\eggJS\\helloWorld\\node_modules\\egg-development\\config\\config.default.js"
-  },
   "logrotator": {
     "filesRotateByHour": "E:\\eggJS\\helloWorld\\node_modules\\egg-logrotator\\config\\config.default.js",
     "filesRotateBySize": "E:\\eggJS\\helloWorld\\node_modules\\egg-logrotator\\config\\config.default.js",
@@ -111,7 +105,7 @@
   },
   "view": {
     "root": "E:\\eggJS\\helloWorld\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "E:\\eggJS\\helloWorld\\node_modules\\egg-view\\config\\config.local.js",
+    "cache": "E:\\eggJS\\helloWorld\\node_modules\\egg-view\\config\\config.default.js",
     "defaultExtension": "E:\\eggJS\\helloWorld\\node_modules\\egg-view\\config\\config.default.js",
     "defaultViewEngine": "E:\\eggJS\\helloWorld\\node_modules\\egg-view\\config\\config.default.js",
     "mapping": "E:\\eggJS\\helloWorld\\node_modules\\egg-view\\config\\config.default.js"
@@ -140,7 +134,9 @@
       "egg": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
+      "supertest": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "baseDir": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
@@ -179,17 +175,15 @@
     "encoding": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
     "env": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
     "level": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.unittest.js",
     "disableConsoleAfterReady": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
     "outputJSON": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.unittest.js",
     "appLogName": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
     "coreLogName": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
     "agentLogName": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
     "errorLogName": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
-    "coreLogger": {
-      "consoleLevel": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.local.js"
-    }
+    "coreLogger": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
     "enableDNSCache": "E:\\eggJS\\helloWorld\\node_modules\\egg\\config\\config.default.js",
