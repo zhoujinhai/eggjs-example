@@ -1,0 +1,23 @@
+{
+  "name": "logincookie",
+  "version": "1.0.0",
+  "description": "loginCookie example of egg",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "egg-bin test",
+    "dev": "egg-bin dev"
+  },
+  "author": "zjh",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^1.8.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.3.2",
+    "egg-mock": "^3.12.1",
+    "supertest": "^3.0.0"
+  }
+}
