@@ -1,7 +1,0 @@
-test/fixtures
-**/app/public
-node_modules
-logs
-run
-coverage
-hackernews-async-ts/**/*.js
