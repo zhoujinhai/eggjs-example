@@ -1,0 +1,19 @@
+{
+  "name": "httpclient",
+  "version": "1.0.0",
+  "description": "httpClient of egg example",
+  "main": "index.js",
+  "scripts": {
+    "test": "egg-bin test",
+    "dev": "egg-bin dev"
+  },
+  "author": "zjh",
+  "license": "ISC",
+  "devDependencies": {
+    "egg-bin": "^4.3.2"
+  },
+  "dependencies": {
+    "egg": "^1.8.0",
+    "formstream": "^1.1.0"
+  }
+}
